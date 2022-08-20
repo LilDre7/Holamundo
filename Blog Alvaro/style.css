@@ -1,0 +1,89 @@
+body{
+    font-family: 'Nokia Cellphone FC', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(img/rick.jpg);
+}
+
+nav{
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    padding: 10px 10px;
+    background-image: url(img/kaws.png);
+}
+
+.enlace {
+    position:absolute;
+    padding: 10px 26px;
+}
+
+.logo {
+   height: 60px;
+   border-radius: 50%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 12px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 4px;
+    
+}
+
+nav ul li a{
+    color:aliceblue;
+    font-size: 14px;
+    padding: 0px 0px;
+    border-radius: 12px;
+    
+
+}
+
+nav ul :hover {
+    background: white;
+    transition: 0.5ms;
+}
+
+.titulo1{
+    color: blueviolet;
+    text-align: center; 
+}
+
+.cuadro1{
+    text-align:center;
+    width: 380px;
+    position:relative;
+    box-shadow: 0 2px 7px black;
+    margin: 50px auto;
+    background:lightsteelblue;
+    transition: box-shadow 0.3 ease;
+    transition: color 0.3s ease;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.cuadro1:hover{
+    text-decoration:underline;
+    transition:0.5ms;
+    box-shadow: 0 0.1rem 0.4rem rgba(1, 9, 2, 1)
+}
+
+.h0 {
+    text-align: center;
+}
+
+form{
+   text-align: center;
+}
+
+input:hover{
+    border-radius: 50px;
+    transition: 0.5ms;
+    box-shadow: 0 0.3rem 0.6 rgba(1, 9, 2, 1);
+    
+}
